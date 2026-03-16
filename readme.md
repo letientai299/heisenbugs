@@ -8,8 +8,6 @@ compiled list of such historical bugs.
 To save your time, each bugs some with a short summary of what happens and the
 root cause. But, for maximize effect, you should check the bug's link.
 
----
-
 ## [We can't send email more than 500 miles][500_miles]
 
 Email server application was unintentionally downgraded. Some configurations for
@@ -28,19 +26,19 @@ different result once it's formatted.
 
 ## [OpenOffice can't print on Tuesdays][open_office_tuesday]
 
-OpenOffice produces a postscript document before send it to [cups][ubuntu_cups] for
-printing. The postscript document will contains a line like:
+OpenOffice produces a postscript document before send it to [cups][ubuntu_cups]
+for printing. The postscript document will contains a line like:
 
-```
+```text
 %%CreationDate: (Tue Mar 3 19:47:42 2009)
 ```
 
 `cups` use [file][unix_file] to identify if the file is a printable format. And
 `file` mislabels the postscript document as Erlang JAM file, because its
-internal database of Erlang JAM magic entry is incorrect (space is not
-escaped). The Erlang magic entry is:
+internal database of Erlang JAM magic entry is incorrect (space is not escaped).
+The Erlang magic entry is:
 
-```
+```text
 4 string Tue Jan 22 14:32:44 MET 1991 Erlang JAM file - version 4.2
 ```
 
@@ -48,8 +46,8 @@ escaped). The Erlang magic entry is:
 
 [webpack-cli][gh_webpack_cli] v3.3.4 has some changes to the code that show the
 donation banner, to show it only on Monday. This is an attempt to make the
-banner appears less frequently (as people previously complain about it). The
-new implementation uses `process.getuid()`, which is not available on Windows,
+banner appears less frequently (as people previously complain about it). The new
+implementation uses `process.getuid()`, which is not available on Windows,
 causing webpack to crash only on Monday.
 
 ## [A file reliably cauases printer jam][printer_jam]
@@ -84,8 +82,8 @@ categorize as bugs.
 
 - [A story about magic][magic_story]: a switch that no body knows what it does,
   but the computer will crash if the swich is flipped.
-- [Type of bugs][bug_types]: four types of bugs, named after popular
-  scientists, with some interesting in the classification.
+- [Type of bugs][bug_types]: four types of bugs, named after popular scientists,
+  with some interesting in the classification.
 
 ## Contribution
 
@@ -111,13 +109,18 @@ links.
 [gh_webpack_cli]: https://github.com/webpack/webpack-cli
 [500_miles]: http://web.mit.edu/jemorris/humor/500-miles
 [unit_test_sunday]: https://qntm.org/unit
-[open_office_tuesday]: https://bugs.launchpad.net/ubuntu/+source/cupsys/+bug/255161
-[file_erlang_jam_bug]: https://bugs.launchpad.net/ubuntu/+source/file/+bug/248619
+[open_office_tuesday]:
+  https://bugs.launchpad.net/ubuntu/+source/cupsys/+bug/255161
+[file_erlang_jam_bug]:
+  https://bugs.launchpad.net/ubuntu/+source/file/+bug/248619
 [unix_file]: https://en.wikipedia.org/wiki/File_(command)
 [ubuntu_cups]: https://help.ubuntu.com/lts/serverguide/cups.html
-[printer_jam]: https://nedbatchelder.com/blog/200811/print_this_file_your_printer_will_jam.html
+[printer_jam]:
+  https://nedbatchelder.com/blog/200811/print_this_file_your_printer_will_jam.html
 [ie_console_only_when_debug]: https://stackoverflow.com/q/7742781/3869533
 [magic_story]: http://catb.org/jargon/html/magic-story.html
-[go_evil_runtime_bug]: https://marcan.st/2017/12/debugging-an-evil-go-runtime-bug
+[go_evil_runtime_bug]:
+  https://marcan.st/2017/12/debugging-an-evil-go-runtime-bug
 [node_exporter]: https://github.com/prometheus/node_exporter
-[bug_types]: https://opensourceforu.com/2010/10/joy-of-programming-types-of-bugs/
+[bug_types]:
+  https://opensourceforu.com/2010/10/joy-of-programming-types-of-bugs/
