@@ -67,8 +67,8 @@ The Erlang magic entry is:
 4 string Tue Jan 22 14:32:44 MET 1991 Erlang JAM file - version 4.2
 ```
 
-Discussions: [HN (2016)][oo_tuesday_hn1] · [HN (2014)][oo_tuesday_hn2] ·
-[Erlang mailing list (2009)][oo_tuesday_erlang]
+Discussions: [HN (2016)][oo_tuesday_hn1] · [HN (2014)][oo_tuesday_hn2] · [Erlang
+mailing list (2009)][oo_tuesday_erlang]
 
 [open_office_tuesday]:
   https://bugs.launchpad.net/ubuntu/+source/cupsys/+bug/255161
@@ -102,8 +102,7 @@ the 366th day of a leap year, could never exit — `days` was not greater than
 drained the battery. Waiting until January 1 "fixed" it. A worldwide
 synchronized freeze with a 4-year recurrence cycle.
 
-Discussions: [HN (2009)][zune_hn] ·
-[Overclock.net (2008)][zune_overclock]
+Discussions: [HN (2009)][zune_hn] · [Overclock.net (2008)][zune_overclock]
 
 [zune_bug]: http://bit-player.org/2009/the-zune-bug
 [zune_wiki]: https://en.wikipedia.org/wiki/Zune_30
@@ -135,9 +134,8 @@ mode simultaneously, risking total loss of AC electrical power mid-flight. The
 FAA issued an [Airworthiness Directive][boeing_faa] mandating power cycling
 every 120 days until a software fix was deployed.
 
-Discussions: [HN (2018)][boeing_hn1] · [HN (2015)][boeing_hn2] ·
-[PPRuNe Forums][boeing_pprune] ·
-[The Register Forums (2015)][boeing_reg_forum] ·
+Discussions: [HN (2018)][boeing_hn1] · [HN (2015)][boeing_hn2] · [PPRuNe
+Forums][boeing_pprune] · [The Register Forums (2015)][boeing_reg_forum] ·
 [Slashdot (2015)][boeing_slashdot]
 
 [boeing_787]:
@@ -169,8 +167,7 @@ Discussions: [HN (2023)][500_miles_hn1] · [HN (2020)][500_miles_hn2] ·
 [500_miles]: http://web.mit.edu/jemorris/humor/500-miles
 [500_miles_hn1]: https://news.ycombinator.com/item?id=37576633
 [500_miles_hn2]: https://news.ycombinator.com/item?id=23775404
-[500_miles_unix]:
-  https://www.unix.com/war-stories/238965-500-mile-email.html
+[500_miles_unix]: https://www.unix.com/war-stories/238965-500-mile-email.html
 
 ### [The code worked differently when the moon was full][cern_moon]
 
@@ -181,8 +178,7 @@ day, [LHC][lhc] operators must correct proton orbits twice daily to compensate
 for tidal forces. The effect is largest during full moon and new moon, when the
 sun and moon align their gravitational pull.
 
-Discussions: [HN (2021)][cern_hn] ·
-[Quantum Diaries (2012)][cern_qd]
+Discussions: [HN (2021)][cern_hn] · [Quantum Diaries (2012)][cern_qd]
 
 [cern_moon]:
   https://www.hanselman.com/blog/the-code-worked-differently-when-the-moon-was-full
@@ -250,16 +246,14 @@ years, because testing changed the timing. The same bug existed in the
 predecessor Therac-20, but was masked by hardware interlocks that were removed
 in the 25.
 
-Discussions: [HN (2025)][therac_hn] ·
-[The Daily WTF][therac_dailywtf] ·
+Discussions: [HN (2025)][therac_hn] · [The Daily WTF][therac_dailywtf] ·
 [Tildes][therac_tildes]
 
 [therac_25]:
   https://www.cs.columbia.edu/~junfeng/08fa-e6998/sched/readings/therac25.pdf
 [therac_wiki]: https://en.wikipedia.org/wiki/Therac-25
 [therac_hn]: https://news.ycombinator.com/item?id=45036294
-[therac_dailywtf]:
-  https://thedailywtf.com/articles/the-therac-25-incident
+[therac_dailywtf]: https://thedailywtf.com/articles/the-therac-25-incident
 [therac_tildes]:
   https://tildes.net/~tech/105a/always_remember_the_therac_25_incident
 
@@ -307,6 +301,18 @@ categorize as bugs.
 [bug_types]:
   https://opensourceforu.com/2010/10/joy-of-programming-types-of-bugs/
 [sw_folklore]: https://beza1e1.tuxen.de/lore/
+
+## Other bug lists
+
+- [awesome-bugs][awesome_bugs]: bizarre, funny or obscure bugs in software and
+  hardware.
+- [famous-bugs][famous_bugs]: bugs, outages, worms and failures in software
+  history.
+- [List of software bugs][wiki_bugs]: Wikipedia's comprehensive list.
+
+[awesome_bugs]: https://github.com/Julian/awesome-bugs
+[famous_bugs]: https://github.com/umutphp/famous-bugs
+[wiki_bugs]: https://en.wikipedia.org/wiki/List_of_software_bugs
 
 ## Contribution
 
